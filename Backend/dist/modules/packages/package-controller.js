@@ -18,15 +18,15 @@ const EC = new index_1.ErrorController();
 class PackageController {
     /************* Add and Update Package's Details *************/
     save_package(req, res) {
-        var _a, _b, _c, _d, _e, _f;
+        var _a, _b, _c;
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const createBody = {
-                    id: ((_a = req.body) === null || _a === void 0 ? void 0 : _a.id) || null,
-                    package_name: ((_b = req.body) === null || _b === void 0 ? void 0 : _b.package_name) || "",
-                    description: ((_c = req.body) === null || _c === void 0 ? void 0 : _c.description) || "",
-                    price: ((_d = req.body) === null || _d === void 0 ? void 0 : _d.price) || null,
-                    type: ((_e = req.body) === null || _e === void 0 ? void 0 : _e.type).replace(/^./, (_f = req.body) === null || _f === void 0 ? void 0 : _f.type[0].toUpperCase()) || "", //monthly,quarterly and yearly
+                    id: req.body.id || null,
+                    package_name: req.body.package_name,
+                    description: req.body.description || "",
+                    price: ((_a = req.body) === null || _a === void 0 ? void 0 : _a.price) || null,
+                    type: ((_b = req.body) === null || _b === void 0 ? void 0 : _b.type).replace(/^./, (_c = req.body) === null || _c === void 0 ? void 0 : _c.type[0].toUpperCase()) || "", //monthly,quarterly and yearly
                 };
                 //@ts-ignore
                 if (req.role === "ADMIN") {

@@ -7,6 +7,7 @@ import {
     Label,
     Input,
 } from "reactstrap";
+import { toast } from 'react-toastify'
 
 import { useState } from 'react';
 import axios from 'axios';
@@ -45,19 +46,20 @@ const CreateApplication = () => {
         e.preventDefault();
         const token = localStorage.getItem('access-token')
         // Make API request
-        await axios.post(url.APP_SAVE, formData,{headers: { Authorization: `Bearer ${token}` }})
+        await axios.post(url.APP_SAVE, formData, { headers: { Authorization: `Bearer ${token}` } })
             .then(response => {
                 console.log('------', response)
+                toast.success("Success");
                 navigate(-1)
             })
             .catch(error => {
-                setErrorMessage(error)
+                toast.error(error.data.data.message);
             });
     }
 
     return (
         <div>
-            <h4><i className="bi bi-box-arrow-left" style={{ marginRight: '5px', cursor:'pointer' }} onClick={()=>navigate(-1)}></i>Create Application</h4>
+            <h4><i className="bi bi-box-arrow-left" style={{ marginRight: '5px', cursor: 'pointer' }} onClick={() => navigate(-1)}></i>Create Application</h4>
             <Form onSubmit={handleSubmit} style={{ padding: "10px" }} method="post">
                 {errorMessage && <p className="error-message">{errorMessage}</p>}
                 <Row>

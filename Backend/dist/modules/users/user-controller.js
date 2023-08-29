@@ -38,7 +38,13 @@ class UserController {
                     org_type: req.body.org_type || "",
                     is_active: 0
                 };
-                //@ts-ignore
+                if (payload.expiry_date > payload.subscribed_date) {
+                    payload.expiry_date = payload.expiry_date;
+                }
+                else {
+                    throw new Error("Expiry date should be greater than subscribed date");
+                }
+                // @ts-ignore
                 if (req.role == "ADMIN") {
                     const user = yield db1.users.findOne({
                         where: { email: payload.email },
@@ -47,10 +53,12 @@ class UserController {
                     if (payload.id) {
                         updateData = yield db1.users.update(payload, {
                             where: { id: payload.id },
+                        }).then(() => __awaiter(this, void 0, void 0, function* () {
+                            yield db1.users.findOne({ where: { id: payload.id }, });
+                            new index_1.NoContentResponse(EC.updated, user).send(res);
+                        })).catch((error) => {
+                            console.error(error);
                         });
-                        updateData[0] == 1
-                            ? new index_1.NoContentResponse(EC.updated, {}).send(res)
-                            : console.error("No data requested for update.");
                     }
                     else {
                         if (user) {

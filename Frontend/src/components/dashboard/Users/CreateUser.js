@@ -12,6 +12,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import url from '../../../backendURL/backend_urls'
 import { useNavigate, useParams } from 'react-router-dom'
+import { toast } from 'react-toastify';
+
+import '../../../views/ui/login.css'
 
 const CreateUser = () => {
     const params = useParams();
@@ -39,13 +42,11 @@ const CreateUser = () => {
     const token = localStorage.getItem('access-token')
 
     useEffect(() => {
-        fetchPackage_app();
+        getPackages();
     }, [])
 
-
-
-    const fetchPackage_app = async () => {
-        await axios.get(url.PACKAGES,{ headers: { Authorization: `Bearer ${token}` } }).then((result) => {
+    const getPackages = async () => {
+        await axios.get(url.PACKAGES, { headers: { Authorization: `Bearer ${token}` } }).then((result) => {
             setPackages(result.data.data.rows);
         }).catch((error) => {
             alert("Error fetching packages");
@@ -74,9 +75,7 @@ const CreateUser = () => {
                 [name]: value,
             }));
         }
-    };
-
-
+    }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -84,11 +83,11 @@ const CreateUser = () => {
         // Make API request
         await axios.post(url.CREATE_USER, formData, { headers: { Authorization: `Bearer ${token}` } })
             .then(response => {
+                toast.success('Success');
                 navigate(-1)
             })
             .catch(error => {
-                console.error(error)
-                // Handle error
+                toast.error(error.response.data.message)
             });
     }
 

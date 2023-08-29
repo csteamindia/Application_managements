@@ -35,7 +35,14 @@ export class UserController {
         org_type: req.body.org_type || "",
         is_active: 0
       };
-      //@ts-ignore
+
+      if (payload.expiry_date > payload.subscribed_date) {
+        payload.expiry_date = payload.expiry_date;
+      } else {
+        throw new Error("Expiry date should be greater than subscribed date");
+      }
+      console.log("proceed")
+      // @ts-ignore
       if (req.role == "ADMIN") {
         const user = await db1.users.findOne({
           where: { email: payload.email },
@@ -45,10 +52,12 @@ export class UserController {
         if (payload.id) {
           updateData = await db1.users.update(payload, {
             where: { id: payload.id },
+          }).then(async () => {
+            await db1.users.findOne({ where: { id: payload.id }, })
+            new NoContentResponse(EC.updated, user).send(res)
+          }).catch((error: any) => {
+            console.error(error);
           });
-          updateData[0] == 1
-            ? new NoContentResponse(EC.updated, {}).send(res)
-            : console.error("No data requested for update.");
         } else {
           if (user) {
             throw new Error("Email already taken..! Please try another");
@@ -56,6 +65,7 @@ export class UserController {
             const data = await db1.users.create({ ...payload });
             const user = JSON.parse(JSON.stringify(data));
             if (user) {
+              console.log('create');
               await db2.users.create({ ...payload })
               delete user.password;
               user.privileges = JSON.parse(user.privileges);

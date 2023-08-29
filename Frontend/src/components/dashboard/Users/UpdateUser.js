@@ -12,6 +12,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import url from '../../../backendURL/backend_urls'
 import { useNavigate, useParams } from 'react-router-dom'
+import { toast } from "react-toastify";
 
 const UpdateUser = () => {
     const token = localStorage.getItem('access-token')
@@ -44,15 +45,6 @@ const UpdateUser = () => {
         fetchPackage_app();
         fetchApps();
         fetchSingleUser()
-
-        // var subDate = formData.subscribed_date;
-        // var expDate = formData.expiry_date;
-
-        // subDate = subDate.split('T');
-        // expDate = expDate.split('T');
-        // console.log(subDate);
-        // console.log(expDate);
-
     }, [])
 
 
@@ -79,14 +71,11 @@ const UpdateUser = () => {
     const fetchApps = async () => {
         await axios.get(url.APP_LIST, { headers: { Authorization: `Bearer ${token}` } }).then((result) => {
             setApps(result.data.data.rows)
-        })
-            .catch((error) => { console.log('Error ====') })
-
+        }).catch((error) => { console.log('Error ====') })
     }
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
-
         if (type === 'checkbox') {
             if (checked) {
                 setFormData((prevData) => ({
@@ -114,11 +103,13 @@ const UpdateUser = () => {
         // Make API request
         await axios.post(url.CREATE_USER, formData, { headers: { Authorization: `Bearer ${token}` } })
             .then(response => {
-                navigate(-1)
+                toast.success('Success');
+                window.location.href = `/dashboard/${response.data.data.app_id}`
+                // console.log(response.data.data.app_id);
+                // navigate(-1)
             })
             .catch(error => {
-                console.error(error)
-                // Handle error
+                toast.error(error.response.data.message)
             });
     }
 

@@ -19,20 +19,19 @@ const Applications = () => {
   const fetchApps = async () => {
     try {
       const token = localStorage.getItem('access-token');
-      const response = await axios.get(url.APP_LIST,{headers: { Authorization: `Bearer ${token}` }});
-      console.log(response.data.data.rows)
+      const response = await axios.get(url.APP_LIST, { headers: { Authorization: `Bearer ${token}` } });
       setApps(response.data.data.rows);
     } catch (error) {
       console.log('Error fetching products:', error);
     }
   }
 
-
-
   return (
     <div>
       {
         apps && apps.map((data, index) => {
+          console.log(data.logo);
+          // const logo = !data.logo ? "https://picsum.photos/300/200" : data.logo;
           return (
             <Link to={`/dashboard/${data.id}`} key={data.id}>
               <Card
@@ -46,9 +45,6 @@ const Applications = () => {
                 <img
                   alt="Sample"
                   src="https://picsum.photos/300/200"
-                  style={{
-                    
-                  }}
                 />
                 <CardBody style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <h4 key={data.id}>

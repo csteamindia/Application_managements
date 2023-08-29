@@ -12,7 +12,7 @@ const Sidebar = () => {
       icon: "bi bi-speedometer2",
     },
     {
-      title: "Config",
+      title: "Apps",
       href: "/home",
       icon: "bi bi-gear",
     },

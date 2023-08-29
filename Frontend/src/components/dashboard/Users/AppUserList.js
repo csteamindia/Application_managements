@@ -3,14 +3,19 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import url from '../../../backendURL/backend_urls'
 import { useParams } from "react-router-dom";
+import { toast } from 'react-toastify';
+
 
 const AppUserList = () => {
   const params = useParams();
   const [usersData, setUsers] = useState([]);
+
   useEffect(() => {
     fetchUser()
   }, [params?.id])
+
   const token = localStorage.getItem('access-token')
+
   const fetchUser = async () => {
     await axios.get(`${url.APP_USER}/${params?.id}`, { headers: { Authorization: `Bearer ${token}` } })
       .then((response) => { setUsers(response.data.data.rows) })
@@ -20,11 +25,15 @@ const AppUserList = () => {
   }
 
   const removeUser = async (id) => {
-    await axios.delete(`${url.DE_ACTIVE_USER}${id}`, { headers: { Authorization: `Bearer ${token}` } }).then((response) => {
-      window.location.href = window.location.href //refresh page
-    }).catch((error) => {
-      console.log(error)
-    })
+    const confirm = window.confirm("Are you sure want to Delete this item ?");
+
+    if (confirm) {
+      await axios.delete(`${url.DE_ACTIVE_USER}${id}`, { headers: { Authorization: `Bearer ${token}` } }).then((response) => {
+        window.location.href = window.location.href //refresh page
+      }).catch((error) => {
+        toast.error(error.response.data.message)
+      })
+    }
   }
 
   return (

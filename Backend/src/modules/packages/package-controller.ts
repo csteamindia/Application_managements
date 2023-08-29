@@ -9,6 +9,7 @@ import {
   NoContentResponse,
   AuthFailureError
 } from "../../core/index";
+import { BadRequestResponse } from "../../core/ApiResponse";
 // const { dbReader, dbWriter } = require("../../db");
 const { db1, db2 } = require("../../db");
 const EC = new ErrorController();
@@ -18,9 +19,9 @@ export class PackageController {
   public async save_package(req: Request, res: Response) {
     try {
       const createBody = {
-        id: req.body?.id || null,
-        package_name: req.body?.package_name || "",
-        description: req.body?.description || "",
+        id: req.body.id || null,
+        package_name: req.body.package_name,
+        description: req.body.description || "",
         price: req.body?.price || null,
         type:
           (req.body?.type).replace(/^./, req.body?.type[0].toUpperCase()) || "", //monthly,quarterly and yearly
