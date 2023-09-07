@@ -10,6 +10,7 @@ import Dashboard from '../views/dashboard';
 import UpdateUser from '../components/dashboard/Users/UpdateUser';
 import CreateApplication from '../views/ui/CreateApplication';
 import AppUserList from '../components/dashboard/Users/AppUserList';
+import DemoCreds from '../views/ui/DemoCreds';
 
 
 const isAuthenticated = localStorage.hasOwnProperty('access-token') && localStorage.getItem('access-token') !== "";
@@ -32,7 +33,9 @@ const ThemeRoutes = [
   { path: "/create_user/:id", element: <PrivateRoute><FullLayout isHome={true}><CreateUser /></FullLayout></PrivateRoute> },
   { path: "/update_user/:id", element: <PrivateRoute><FullLayout isHome={true}><UpdateUser /></FullLayout></PrivateRoute> },
   { path: "/packages", element: <PrivateRoute><FullLayout isHome={true}><Packages /></FullLayout></PrivateRoute> },
-  { path: '/save_application', element: <PrivateRoute><FullLayout isHome={true}><CreateApplication /></FullLayout></PrivateRoute> }
+  { path: '/save_application', element: <PrivateRoute><FullLayout isHome={true}><CreateApplication /></FullLayout></PrivateRoute> },
+  { path: '/demo/cred', element: <PrivateRoute><FullLayout isHome={true}><DemoCreds /></FullLayout></PrivateRoute> }
+
 ];
 
 export default ThemeRoutes;

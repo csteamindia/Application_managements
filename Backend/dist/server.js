@@ -48,6 +48,7 @@ const app_routes_1 = require("./modules/apps/app_routes");
 const user_route_1 = require("./modules/users/user-route");
 const package_route_1 = require("./modules/packages/package-route");
 const report_route_1 = require("./modules/reports/report-route");
+const demo_cred_route_1 = require("./modules/demoCreds/demo-cred-route");
 var IS_API_LOG = false;
 /**
  * The server.
@@ -102,6 +103,7 @@ class Server {
         new user_route_1.UserRoute(this.router);
         new package_route_1.PackageRoute(this.router);
         new report_route_1.ReportRoute(this.router);
+        new demo_cred_route_1.DemoCredsRoute(this.router);
         //use router middleware
         this.app.use("/api/v1", this.router);
     }

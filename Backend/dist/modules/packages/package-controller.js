@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PackageController = void 0;
 const lodash_1 = require("lodash");
 const index_1 = require("../../core/index");
+const rolesEnum_1 = require("../../Enum/rolesEnum");
 // const { dbReader, dbWriter } = require("../../db");
 const { db1, db2 } = require("../../db");
 const EC = new index_1.ErrorController();
@@ -29,7 +30,7 @@ class PackageController {
                     type: ((_b = req.body) === null || _b === void 0 ? void 0 : _b.type).replace(/^./, (_c = req.body) === null || _c === void 0 ? void 0 : _c.type[0].toUpperCase()) || "", //monthly,quarterly and yearly
                 };
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     if (!createBody.id) {
                         yield db1.packages
                             .create(createBody)
@@ -65,7 +66,7 @@ class PackageController {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     yield db1.packages
                         .findAll()
                         .then((result) => {
@@ -95,7 +96,7 @@ class PackageController {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore 
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     yield db1.packages
                         .findOne({
                         where: { id: req.params.id },

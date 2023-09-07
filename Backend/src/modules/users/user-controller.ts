@@ -8,11 +8,10 @@ import {
   NoContentResponse,
   ApiError,
 } from "../../core/index";
-// const { db1, db1 } = require("../../db");
 const { db1, db2 } = require("../../db");
 const EC = new ErrorController();
 const jwt = require("jsonwebtoken");
-
+import { roles } from '../../Enum/rolesEnum'
 export class UserController {
   /***************** Add & update user **************/
   public save_user = async (req: Request, res: Response) => {
@@ -43,7 +42,7 @@ export class UserController {
       }
       console.log("proceed")
       // @ts-ignore
-      if (req.role == "ADMIN") {
+      if (req.role == roles.super_admin) {
         const user = await db1.users.findOne({
           where: { email: payload.email },
         });
@@ -65,8 +64,21 @@ export class UserController {
             const data = await db1.users.create({ ...payload });
             const user = JSON.parse(JSON.stringify(data));
             if (user) {
-              console.log('create');
-              await db2.users.create({ ...payload })
+              await db2.users.create({ ...payload }).then(async (data: any) => {
+                data = JSON.parse(JSON.stringify(data));
+                await db1.creds.create({
+                  type: data.role,
+                  email: data.email,
+                  password: data.password
+                }).then(async (dataD1: any) => {
+                  dataD1 = JSON.parse(JSON.stringify(dataD1));
+                  await db2.creds.create({
+                    type: dataD1.type,
+                    email: dataD1.email,
+                    password: dataD1.password
+                  })
+                }).catch((error: any) => console.error(error))
+              }).catch((error: any) => console.error(error))
               delete user.password;
               user.privileges = JSON.parse(user.privileges);
               new CreatedResponse(EC.created, {}).send(res);
@@ -113,7 +125,7 @@ export class UserController {
   public list_users = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let user = await db1.users.findAll({
           where: { is_active: 0 },
           include: [
@@ -127,7 +139,7 @@ export class UserController {
         user = JSON.parse(JSON.stringify(user));
         if (user.length > 0) {
           user.forEach((element: any) => {
-            delete element.password;
+            // delete element.password;
             element.privileges = JSON.parse(element.privileges);
             element.package_name =
               element.package != null ? element.package.package_name : "";
@@ -155,7 +167,7 @@ export class UserController {
   public single_user = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let user = await db1.users.findOne({
           where: { id: req.params.id, is_active: 0 },
           include: [
@@ -191,7 +203,7 @@ export class UserController {
   public list_app_users = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let user = await db1.users.findAll({
           where: { app_id: req.params.app_id, is_active: 0 },
           include: [
@@ -232,7 +244,7 @@ export class UserController {
   public user_deactivation = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let user = await db1.users.findOne({
           where: { id: req.params.id, is_active: 0 },
         });

@@ -30,6 +30,11 @@ const Sidebar = () => {
       title: "Create user",
       href: `/create_user/${param.id}`,
       icon: "bi bi-people",
+    },
+    {
+      title: 'Demo Cred',
+      href: '/demo/cred',
+      icon: 'bi bi-database-lock'
     }
 
   ];

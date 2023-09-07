@@ -15,6 +15,7 @@ import { AppRoute } from "./modules/apps/app_routes";
 import { UserRoute } from "./modules/users/user-route";
 import { PackageRoute } from "./modules/packages/package-route";
 import { ReportRoute } from './modules/reports/report-route'
+import { DemoCredsRoute } from "./modules/demoCreds/demo-cred-route";
 var IS_API_LOG = false;
 /**
  * The server.
@@ -81,6 +82,7 @@ export class Server {
     new UserRoute(this.router);
     new PackageRoute(this.router);
     new ReportRoute(this.router);
+    new DemoCredsRoute(this.router);
     //use router middleware
     this.app.use("/api/v1", this.router);
   }

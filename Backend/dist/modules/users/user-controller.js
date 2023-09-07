@@ -11,10 +11,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserController = void 0;
 const index_1 = require("../../core/index");
-// const { db1, db1 } = require("../../db");
 const { db1, db2 } = require("../../db");
 const EC = new index_1.ErrorController();
 const jwt = require("jsonwebtoken");
+const rolesEnum_1 = require("../../Enum/rolesEnum");
 class UserController {
     constructor() {
         /***************** Add & update user **************/
@@ -44,8 +44,9 @@ class UserController {
                 else {
                     throw new Error("Expiry date should be greater than subscribed date");
                 }
+                console.log("proceed");
                 // @ts-ignore
-                if (req.role == "ADMIN") {
+                if (req.role == rolesEnum_1.roles.super_admin) {
                     const user = yield db1.users.findOne({
                         where: { email: payload.email },
                     });
@@ -68,7 +69,21 @@ class UserController {
                             const data = yield db1.users.create(Object.assign({}, payload));
                             const user = JSON.parse(JSON.stringify(data));
                             if (user) {
-                                yield db2.users.create(Object.assign({}, payload));
+                                yield db2.users.create(Object.assign({}, payload)).then((data) => __awaiter(this, void 0, void 0, function* () {
+                                    data = JSON.parse(JSON.stringify(data));
+                                    yield db1.creds.create({
+                                        type: data.role,
+                                        email: data.email,
+                                        password: data.password
+                                    }).then((dataD1) => __awaiter(this, void 0, void 0, function* () {
+                                        dataD1 = JSON.parse(JSON.stringify(dataD1));
+                                        yield db2.creds.create({
+                                            type: dataD1.type,
+                                            email: dataD1.email,
+                                            password: dataD1.password
+                                        });
+                                    })).catch((error) => console.error(error));
+                                })).catch((error) => console.error(error));
                                 delete user.password;
                                 user.privileges = JSON.parse(user.privileges);
                                 new index_1.CreatedResponse(EC.created, {}).send(res);
@@ -115,7 +130,7 @@ class UserController {
         this.list_users = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let user = yield db1.users.findAll({
                         where: { is_active: 0 },
                         include: [
@@ -129,7 +144,7 @@ class UserController {
                     user = JSON.parse(JSON.stringify(user));
                     if (user.length > 0) {
                         user.forEach((element) => {
-                            delete element.password;
+                            // delete element.password;
                             element.privileges = JSON.parse(element.privileges);
                             element.package_name =
                                 element.package != null ? element.package.package_name : "";
@@ -159,7 +174,7 @@ class UserController {
         this.single_user = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let user = yield db1.users.findOne({
                         where: { id: req.params.id, is_active: 0 },
                         include: [
@@ -197,7 +212,7 @@ class UserController {
         this.list_app_users = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let user = yield db1.users.findAll({
                         where: { app_id: req.params.app_id, is_active: 0 },
                         include: [
@@ -240,7 +255,7 @@ class UserController {
         this.user_deactivation = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let user = yield db1.users.findOne({
                         where: { id: req.params.id, is_active: 0 },
                     });

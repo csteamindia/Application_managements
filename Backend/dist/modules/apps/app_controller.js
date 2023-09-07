@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppController = void 0;
 const index_1 = require("../../core/index");
 const { db1, db2 } = require('../../db');
+const rolesEnum_1 = require("../../Enum/rolesEnum");
 const { dbReader, dbWriter } = require("../../db");
 const EC = new index_1.ErrorController();
 const bcrypt_1 = require("bcrypt");
@@ -37,7 +38,7 @@ class AppController {
                 };
                 let save, update;
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     if (reqBody.id) {
                         update = yield db1.apps.update(reqBody, {
                             where: { id: reqBody.id },
@@ -73,7 +74,7 @@ class AppController {
         this.list_apps = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let data = yield db1.apps.findAll({
                         include: [
                             {
@@ -112,7 +113,7 @@ class AppController {
         this.list_app = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
-                if (req.role === "ADMIN") {
+                if (req.role === rolesEnum_1.roles.super_admin) {
                     let data = yield db1.apps.findOne({
                         where: {
                             id: req.params.id,

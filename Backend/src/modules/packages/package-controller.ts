@@ -9,7 +9,7 @@ import {
   NoContentResponse,
   AuthFailureError
 } from "../../core/index";
-import { BadRequestResponse } from "../../core/ApiResponse";
+import { roles } from '../../Enum/rolesEnum'
 // const { dbReader, dbWriter } = require("../../db");
 const { db1, db2 } = require("../../db");
 const EC = new ErrorController();
@@ -27,7 +27,7 @@ export class PackageController {
           (req.body?.type).replace(/^./, req.body?.type[0].toUpperCase()) || "", //monthly,quarterly and yearly
       };
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         if (!createBody.id) {
           await db1.packages
             .create(createBody)
@@ -59,7 +59,7 @@ export class PackageController {
   public async list_packages(req: Request, res: Response) {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
 
         await db1.packages
           .findAll()
@@ -87,7 +87,7 @@ export class PackageController {
   public async list_package_by_id(req: Request, res: Response) {
     try {
       //@ts-ignore 
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         await db1.packages
           .findOne({
             where: { id: req.params.id },

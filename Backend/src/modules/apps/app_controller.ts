@@ -9,6 +9,7 @@ import {
   AuthFailureError,
 } from "../../core/index";
 const { db1, db2 } = require('../../db')
+import {roles} from '../../Enum/rolesEnum';
 const { dbReader, dbWriter } = require("../../db");
 const EC = new ErrorController();
 import { hash, compare } from "bcrypt";
@@ -33,7 +34,7 @@ export class AppController {
       };
       let save, update;
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         if (reqBody.id) {
           update = await db1.apps.update(reqBody, {
             where: { id: reqBody.id },
@@ -65,7 +66,7 @@ export class AppController {
   public list_apps = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let data = await db1.apps.findAll({
           include: [
             {
@@ -102,7 +103,7 @@ export class AppController {
   public list_app = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
-      if (req.role === "ADMIN") {
+      if (req.role === roles.super_admin) {
         let data = await db1.apps.findOne({
           where: {
             id: req.params.id,
