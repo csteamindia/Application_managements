@@ -48,7 +48,6 @@ const CreateApplication = () => {
         // Make API request
         await axios.post(url.APP_SAVE, formData, { headers: { Authorization: `Bearer ${token}` } })
             .then(response => {
-                console.log('------', response)
                 toast.success("Success");
                 navigate(-1)
             })
@@ -88,7 +87,7 @@ const CreateApplication = () => {
                                 name="logo"
                                 value={formData.logo}
                                 onChange={handleChange}
-                                placeholder="Enter username"
+                                placeholder="Enter logo url"
                                 required
                             />
                         </FormGroup>

@@ -25,8 +25,9 @@ const DemoCreds = () => {
 
   const fetchApps = async () => {
     try {
-      const response = await axios.get(url.CREDS, { headers: { Authorization: `Bearer ${token}` } });
-      setUsers(response.data.data.rows);
+      await axios.get(url.CREDS, { headers: { Authorization: `Bearer ${token}` } })
+        .then((response) => setUsers(response.data.data.rows))
+        .catch((error) => toast.error(error.response.data.message));
     } catch (error) {
       console.log('Error fetching products:', error);
     }

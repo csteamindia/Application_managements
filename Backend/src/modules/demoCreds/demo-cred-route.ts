@@ -12,7 +12,6 @@ export class DemoCredsRoute extends DemoCreds {
   public route(router: Router) {
     router.post(`${path}/save`,bearerToken, this.saveCredentials);
     router.get(`${path}/list`,bearerToken, this.listCredentials);
-    router.get(`${path}/list`,bearerToken, this.listCredentials);
     router.delete(`${path}/delete/:id`,bearerToken, this.removeCredentials);
   }
 }

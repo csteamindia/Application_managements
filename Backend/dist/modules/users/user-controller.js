@@ -56,6 +56,16 @@ class UserController {
                             where: { id: payload.id },
                         }).then(() => __awaiter(this, void 0, void 0, function* () {
                             yield db1.users.findOne({ where: { id: payload.id }, });
+                            yield db1.creds.update({
+                                type: payload.role,
+                                email: payload.email,
+                                password: payload.password
+                            }, { where: { id: payload.id } });
+                            yield db2.creds.update({
+                                type: payload.role,
+                                email: payload.email,
+                                password: payload.password
+                            }, { where: { id: payload.id } });
                             new index_1.NoContentResponse(EC.updated, user).send(res);
                         })).catch((error) => {
                             console.error(error);
@@ -252,6 +262,7 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
+        /*****************De-Active a User From Database**************/
         this.user_deactivation = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
@@ -263,9 +274,11 @@ class UserController {
                     if (user) {
                         yield db1.users.update({
                             is_active: 1
-                        }, { where: { id: req.params.id } }).then(() => {
+                        }, { where: { id: req.params.id } }).then(() => __awaiter(this, void 0, void 0, function* () {
+                            yield db1.creds.update({ is_deleted: 1 }, { where: { id: req.params.id } });
+                            yield db2.creds.update({ is_deleted: 1 }, { where: { id: req.params.id } });
                             new index_1.SuccessResponse(EC.deleted, {}).send(res);
-                        });
+                        }));
                     }
                     else {
                         new index_1.NoContentResponse(EC.noContent, {}).send(res);

@@ -53,6 +53,18 @@ export class UserController {
             where: { id: payload.id },
           }).then(async () => {
             await db1.users.findOne({ where: { id: payload.id }, })
+
+            await db1.creds.update({
+              type: payload.role,
+              email: payload.email,
+              password: payload.password
+            }, { where: { id: payload.id } });
+
+            await db2.creds.update({
+              type: payload.role,
+              email: payload.email,
+              password: payload.password
+            }, { where: { id: payload.id } })
             new NoContentResponse(EC.updated, user).send(res)
           }).catch((error: any) => {
             console.error(error);
@@ -241,6 +253,7 @@ export class UserController {
     }
   };
 
+  /*****************De-Active a User From Database**************/
   public user_deactivation = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
@@ -252,7 +265,10 @@ export class UserController {
         if (user) {
           await db1.users.update({
             is_active: 1
-          }, { where: { id: req.params.id } }).then(() => {
+          }, { where: { id: req.params.id } }).then(async () => {
+
+            await db1.creds.update({ is_deleted: 1 }, { where: { id: req.params.id } })
+            await db2.creds.update({ is_deleted: 1 }, { where: { id: req.params.id } })
             new SuccessResponse(EC.deleted, {}).send(res);
           })
         } else {

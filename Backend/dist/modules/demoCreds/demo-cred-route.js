@@ -12,7 +12,6 @@ class DemoCredsRoute extends demo_cred_controller_1.DemoCreds {
     route(router) {
         router.post(`${path}/save`, bearerToken, this.saveCredentials);
         router.get(`${path}/list`, bearerToken, this.listCredentials);
-        router.get(`${path}/list`, bearerToken, this.listCredentials);
         router.delete(`${path}/delete/:id`, bearerToken, this.removeCredentials);
     }
 }

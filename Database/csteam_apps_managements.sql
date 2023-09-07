@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 07, 2023 at 04:53 PM
+-- Generation Time: Sep 07, 2023 at 05:34 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `apps` (
   `id` int(11) NOT NULL,
   `app_title` varchar(100) NOT NULL,
-  `logo` varchar(256) NOT NULL,
+  `logo` text NOT NULL,
   `url` varchar(256) NOT NULL,
   `admin_url` varchar(256) NOT NULL,
   `domain_expiry_date` datetime NOT NULL,
@@ -55,7 +55,8 @@ INSERT INTO `apps` (`id`, `app_title`, `logo`, `url`, `admin_url`, `domain_expir
 (6, 'App-1', 'logo', 'htpp://app-1.com', 'http://app-1/admin.com', '2023-08-18 00:00:00', 'app-database', '168.34.98.01', 'root', '$2b$10$tBFc9VBaj1BIu2erZC0THurMcIuQ6x8Z9fLwzCbavY3SMdATfjosO', '2023-08-25 00:00:00', 'Active'),
 (7, 'App-2', 'logo url', 'http://url/db.com', 'http://url/admin/db.com', '2023-08-22 18:30:00', '2023/08/20', 'localhost', 'root', '$2b$10$u9jWRJpLBKmR13yqT0vpMeZ8BkDUoBMbtdHbxObdaTmxlVhHaPoBC', '2023-08-21 18:30:00', 'active'),
 (8, 'app-2', 'logo url', 'http://url/db.com', 'http://url/admin/db.com', '2023-08-22 18:30:00', '2023/08/20', 'localhost', 'root', '$2b$10$wdwmP24cg0XazPkQrd4/7usUyTKmt9eVpDWR/35xHCp4mmt.7/I/a', '2023-08-21 18:30:00', 'active'),
-(9, 'Crick buzz', 'https://www.forbesindia.com/media/images/2020/Oct/img_144755_forbes900x6001.jpg', 'http://user/crickbuzz.com', 'http://admin/crickbuzz.com', '2023-08-31 00:00:00', 'normal databse', 'localhost', 'db123', '$2b$10$0P1SvSnx6KMEUmdQXt6vTuxmPRNTC9WMKUHMjZKqMHnN6jnA10zdC', '2023-08-28 00:00:00', 'Active');
+(9, 'Crick buzz', 'https://www.forbesindia.com/media/images/2020/Oct/img_144755_forbes900x6001.jpg', 'http://user/crickbuzz.com', 'http://admin/crickbuzz.com', '2023-08-31 00:00:00', 'normal databse', 'localhost', 'db123', '$2b$10$0P1SvSnx6KMEUmdQXt6vTuxmPRNTC9WMKUHMjZKqMHnN6jnA10zdC', '2023-08-28 00:00:00', 'Active'),
+(10, 'Test', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1eccef61-2e9d-4e1a-9481-5d7e21547651/d5mnvq2-394933b4-52a9-4f54-af2c-588ac80e4371.png/v1/fit/w_600,h_600/test_logo_by_gypsy9rblx_d5mnvq2-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvMWVjY2VmNjEtMmU5ZC00ZTFhLTk0ODEtNWQ3ZTIxNTQ3NjUxXC9kNW1udnEyLTM5NDkzM2I0LTUyYTktNGY1NC1hZjJjLTU4OGFjODBlNDM3MS5wbmciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.yCU6ecla6iCUj19RGiCxdW_IdC6N89Oe0WYWAa7EVsE', 'http://test.com', 'http://test.com', '2023-09-07 00:00:00', 'localhost', 'localhost', 'root', '$2b$10$5aTGbIC7kubk/e0QDmByvOyfwSEunr3jQ9iwHE2mdaxHp6rcOhZL.', '2023-09-07 00:00:00', 'Active');
 
 -- --------------------------------------------------------
 
@@ -79,7 +80,8 @@ INSERT INTO `demo_creds` (`id`, `type`, `email`, `password`, `is_deleted`) VALUE
 (1, 'CLIENT', 'karam@gmail.com', 'client', 0),
 (2, 'ADMIN', 'demo@gmail.com', 'client', 0),
 (3, 'ADMIN', 'demo1@gmail.com', 'admin', 0),
-(4, 'ADMIN', 'admi@gmail.com', 'admin12', 0);
+(4, 'ADMIN', 'admi@gmail.com', 'admin12', 0),
+(5, 'CLIENT', 'aman.gupta@gmail.com', 'aman123', 0);
 
 -- --------------------------------------------------------
 
@@ -184,7 +186,8 @@ INSERT INTO `users` (`id`, `app_id`, `full_name`, `username`, `password`, `email
 (32, 1, 'Karan Kundra', 'karan234', 'client', 'karam@gmail.com', '9090989098', 'CLIENT', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
 (33, 1, 'Karan Kundra', 'karan234', 'client', 'demo@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
 (34, 1, 'Karan Kundra', 'karan234', 'admin', 'demo1@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
-(35, 1, 'Karan Kundra', 'karan234', 'admin12', 'admi@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0);
+(35, 1, 'Karan Mohan', 'karan234', '', 'admi@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
+(36, 1, 'Aman Gupta', 'aman12', 'aman123', 'aman.gupta@gmail.com', '7898789878', 'CLIENT', 'godaddy.com', '[\"Read\",\"Writer\"]', 7, 'aman ', 'clothes', '2023-09-08 00:00:00', '2023-09-21 00:00:00', 1);
 
 --
 -- Indexes for dumped tables
@@ -226,13 +229,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `apps`
 --
 ALTER TABLE `apps`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `demo_creds`
 --
 ALTER TABLE `demo_creds`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `packages`
@@ -244,7 +247,7 @@ ALTER TABLE `packages`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

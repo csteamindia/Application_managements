@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 07, 2023 at 04:53 PM
+-- Generation Time: Sep 07, 2023 at 05:35 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `apps` (
   `id` int(11) NOT NULL,
   `app_title` varchar(100) NOT NULL,
-  `logo` varchar(256) NOT NULL,
+  `logo` text NOT NULL,
   `url` varchar(256) NOT NULL,
   `admin_url` varchar(256) NOT NULL,
   `domain_expiry_date` datetime NOT NULL,
@@ -64,7 +64,8 @@ INSERT INTO `demo_creds` (`id`, `type`, `email`, `password`, `is_deleted`) VALUE
 (1, 'CLIENT', 'karam@gmail.com', 'client', 1),
 (2, 'ADMIN', 'demo@gmail.com', 'client', 0),
 (3, 'ADMIN', 'demo1@gmail.com', 'admin', 0),
-(4, 'ADMIN', 'admi@gmail.com', 'admin12', 0);
+(4, 'ADMIN', 'admi@gmail.com', 'admin12', 0),
+(5, 'CLIENT', 'aman.gupta@gmail.com', 'aman123', 0);
 
 -- --------------------------------------------------------
 
@@ -128,7 +129,8 @@ INSERT INTO `users` (`id`, `app_id`, `full_name`, `username`, `password`, `email
 (16, 1, 'Karan Kundra', 'karan234', 'client', 'karam@gmail.com', '9090989098', 'CLIENT', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
 (17, 1, 'Karan Kundra', 'karan234', 'client', 'demo@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
 (18, 1, 'Karan Kundra', 'karan234', 'admin', 'demo1@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
-(19, 1, 'Karan Kundra', 'karan234', 'admin12', 'admi@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0);
+(19, 1, 'Karan Kundra', 'karan234', 'admin12', 'admi@gmail.com', '9090989098', 'ADMIN', 'http://example.com', '[\"read\",\"write\",\"share\"]', 3, 'KR House', 'Filmy Industry', '2023-08-09 18:30:00', '2024-08-02 18:30:00', 0),
+(20, 1, 'Aman Gupta', 'aman12', 'aman123', 'aman.gupta@gmail.com', '7898789878', 'CLIENT', 'godaddy.com', '[\"Read\",\"Writer\"]', 7, 'aman ', 'clothes', '2023-09-08 00:00:00', '2023-09-21 00:00:00', 0);
 
 --
 -- Indexes for dumped tables
@@ -176,7 +178,7 @@ ALTER TABLE `apps`
 -- AUTO_INCREMENT for table `demo_creds`
 --
 ALTER TABLE `demo_creds`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `packages`
@@ -188,7 +190,7 @@ ALTER TABLE `packages`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
