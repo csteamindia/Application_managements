@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\yenna\\Desktop\\Working Dir\\Application_managements\\Backend\\logs\\.f297ae281dfa0c0c9e919512237b3a1f87c87a0b-audit.json",
+    "files": [
+        {
+            "date": 1694794263877,
+            "name": "C:\\Users\\yenna\\Desktop\\Working Dir\\Application_managements\\Backend\\logs\\2023-09-15.log",
+            "hash": "43d0fd9e14a9068799a34bebc75cdf1446f44913f54a7055873fb210f2cb3937"
+        },
+        {
+            "date": 1694802889714,
+            "name": "C:\\Users\\yenna\\Desktop\\Working Dir\\Application_managements\\Backend\\logs\\2023-09-16.log",
+            "hash": "faf83a51478f585758fb0b2523984b843008779bd8baed1789d2bc6abb679d37"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -7,45 +7,21 @@ process.env.ENV_IP = "localhost";
 var server = require("../dist/server");
 var debug = require("debug")("express:server");
 var http = require("http");
-// const socketIO = require('socket.io');
+
 //create http server
 var httpPort = normalizePort(process.env.PORT);
 var app = server.Server.bootstrap().app;
-app.set("port", httpPort);
 
+app.set("port", httpPort);
 var httpServer = http.createServer(app);
 
-// const io = socketIO(httpServer);
-
-// // Handle socket connections
-// io.on('connection', (socket) => {
-//   console.log('A user connected');
-
-//   // Handle incoming messages from clients
-//   socket.on('message', (data) => {
-//     console.log('Received message:', data);
-
-//     // Broadcast the received message to all connected clients
-//     io.emit('message', data);
-//   });
-
-//   // Handle disconnections
-//   socket.on('disconnect', () => {
-//     console.log('A user disconnected');
-//   });
-// });
 
 //listen on provided ports
 httpServer.listen(httpPort, '0.0.0.0');
-
 //add error handler
 httpServer.on("error", onError);
-
 //start listening on port
 httpServer.on("listening", onListening);
-
-
-
 
 
 /**
@@ -99,28 +75,10 @@ function onError(error) {
  * Event listener for HTTP server "listening" event.
  */
 function onListening() {
-  var addr = httpServer.address();const io = socketIO(httpServer);
-
-  // // Handle socket connections
-  // io.on('connection', (socket) => {
-  //   console.log('A user connected');
+  var addr = httpServer.address();
   
-  //   // Handle incoming messages from clients
-  //   socket.on('message', (data) => {
-  //     console.log('Received message:', data);
-  
-  //     // Broadcast the received message to all connected clients
-  //     io.emit('message', data);
-  //   });
-  
-  //   // Handle disconnections
-  //   socket.on('disconnect', () => {
-  //     console.log('A user disconnected');
-  //   });
-  // });
   var bind = typeof addr === "string"
     ? "pipe " + addr
     : "port " + addr.port;
   console.log("Listening on " + bind);
-  debug("Listening on " + bind);
 }

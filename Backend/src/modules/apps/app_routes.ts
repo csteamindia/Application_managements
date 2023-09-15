@@ -1,6 +1,5 @@
 import { Router } from "express";
 import { AppController } from "./app_controller";
-const path = "/apps";
 const bearerToken = require('../../middleware/bearer-token');
 
 export class AppRoute extends AppController {
@@ -10,8 +9,8 @@ export class AppRoute extends AppController {
   }
 
   public route(router: Router) {
-    router.post(`${path}/save`,bearerToken, this.save_app);
-    router.get(`${path}/list`,bearerToken, this.list_apps);
-    router.get(`${path}/list/byId/:id`,bearerToken, this.list_app);
+    router.get('/apps',bearerToken, this.list_apps);
+    router.get('/app/:id',bearerToken, this.list_app);
+    router.post('/app/create',bearerToken, this.save_app);
   }
 }

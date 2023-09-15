@@ -8,13 +8,20 @@ import {
   ApiError,
   AuthFailureError,
 } from "../../core/index";
-const { db1, db2 } = require('../../db')
+const { db2, dbConfig } = require('../../helpers/helpers')
+const { db1 } = require('../../db')
 import {roles} from '../../Enum/rolesEnum';
-const { dbReader, dbWriter } = require("../../db");
 const EC = new ErrorController();
-import { hash, compare } from "bcrypt";
+import { hash  } from "bcrypt";
+
 export class AppController {
-  //Add new Application
+
+  /**
+   * Create New Application
+   * @param req POST
+   *  - {}
+   * @param res Json-Object 
+   */
   public save_app = async (req: Request, res: Response) => {
     try {
 
@@ -62,7 +69,11 @@ export class AppController {
     }
   };
 
-  //List all created Apps
+  /**
+   * Get All DATA Rows 
+   * @param req GET
+   * @param res Array-Object
+   */
   public list_apps = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
@@ -72,7 +83,6 @@ export class AppController {
             {
               model: db1.users,
               attributes: [["full_name", "Full Name"], "Domain"],
-              // attributes: { exclude: "id" },
             },
           ],
         });
@@ -99,35 +109,22 @@ export class AppController {
     }
   };
 
-  //List single app by id
+  /**
+   * Get Single App Data
+   * @param req GET
+   *    Int ID
+   * @param res 
+   *  - Object 
+   */
   public list_app = async (req: Request, res: Response) => {
-    try {
-      //@ts-ignore
-      if (req.role === roles.super_admin) {
-        let data = await db1.apps.findOne({
-          where: {
-            id: req.params.id,
-          },
-          include: [
-            {
-              model: db1.users,
-              attributes: [["full_name", "Full Name"], "Domain"],
-              // group: [dbReader.Sequelize.fn("count",dbReader.Sequelize.col("app_id"))],
-            },
-          ],
-        });
-        data = JSON.parse(JSON.stringify(data));
-        if (data) {
-          delete data.database_password;
-          new SuccessResponse(EC.fetched, data).send(res);
-        } else {
-          new NoContentResponse(EC.noContent, {}).send(res);
-        }
-      } else {
-        ApiError.handle(new AuthFailureError("You are not authorized to perform this action."), res);
-      }
-    } catch (error: any) {
+    await db2(req.params.id).then((conn: any) => {
+      conn.query('SELECT * FROM user', dbConfig)
+      .then((data: any) => {
+        new SuccessResponse(EC.fetched, data).send(res);
+      })
+    })
+    .catch((error: { message: string | undefined; }) => {
       ApiError.handle(new BadRequestError(error.message), res);
-    }
+    });
   };
 }

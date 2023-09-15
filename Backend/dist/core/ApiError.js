@@ -37,7 +37,7 @@ class ApiError extends Error {
         errData += "Params : " + JSON.stringify(res.req.params) + "\n";
         errData += "Error : " + err.message + "\n";
         errData += "---------------------------------------------------------------------------------------------\n";
-        fs.appendFileSync('ErrorLogs/' + (0, moment_1.default)(new Date()).format('DD-MM-YYYY') + '.txt', '\n' + errData);
+        fs.appendFileSync('logs/' + (0, moment_1.default)(new Date()).format('DD-MM-YYYY') + '.txt', '\n' + errData);
         switch (err.type) {
             case ErrorType.BAD_TOKEN:
             case ErrorType.TOKEN_EXPIRED:

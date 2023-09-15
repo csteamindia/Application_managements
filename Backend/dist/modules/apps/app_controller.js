@@ -11,14 +11,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppController = void 0;
 const index_1 = require("../../core/index");
-const { db1, db2 } = require('../../db');
+const { db2, dbConfig } = require('../../helpers/helpers');
+const { db1 } = require('../../db');
 const rolesEnum_1 = require("../../Enum/rolesEnum");
-const { dbReader, dbWriter } = require("../../db");
 const EC = new index_1.ErrorController();
 const bcrypt_1 = require("bcrypt");
 class AppController {
     constructor() {
-        //Add new Application
+        /**
+         * Create New Application
+         * @param req POST
+         *  - {}
+         * @param res Json-Object
+         */
         this.save_app = (req, res) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
             try {
@@ -70,7 +75,11 @@ class AppController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        //List all created Apps
+        /**
+         * Get All DATA Rows
+         * @param req GET
+         * @param res Array-Object
+         */
         this.list_apps = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
@@ -80,7 +89,6 @@ class AppController {
                             {
                                 model: db1.users,
                                 attributes: [["full_name", "Full Name"], "Domain"],
-                                // attributes: { exclude: "id" },
                             },
                         ],
                     });
@@ -109,39 +117,23 @@ class AppController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        //List single app by id
+        /**
+         * Get Single App Data
+         * @param req GET
+         *    Int ID
+         * @param res
+         *  - Object
+         */
         this.list_app = (req, res) => __awaiter(this, void 0, void 0, function* () {
-            try {
-                //@ts-ignore
-                if (req.role === rolesEnum_1.roles.super_admin) {
-                    let data = yield db1.apps.findOne({
-                        where: {
-                            id: req.params.id,
-                        },
-                        include: [
-                            {
-                                model: db1.users,
-                                attributes: [["full_name", "Full Name"], "Domain"],
-                                // group: [dbReader.Sequelize.fn("count",dbReader.Sequelize.col("app_id"))],
-                            },
-                        ],
-                    });
-                    data = JSON.parse(JSON.stringify(data));
-                    if (data) {
-                        delete data.database_password;
-                        new index_1.SuccessResponse(EC.fetched, data).send(res);
-                    }
-                    else {
-                        new index_1.NoContentResponse(EC.noContent, {}).send(res);
-                    }
-                }
-                else {
-                    index_1.ApiError.handle(new index_1.AuthFailureError("You are not authorized to perform this action."), res);
-                }
-            }
-            catch (error) {
+            yield db2(req.params.id).then((conn) => {
+                conn.query('SELECT * FROM user', dbConfig)
+                    .then((data) => {
+                    new index_1.SuccessResponse(EC.fetched, data).send(res);
+                });
+            })
+                .catch((error) => {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
-            }
+            });
         });
     }
 }
