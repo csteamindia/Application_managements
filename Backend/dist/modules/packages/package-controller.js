@@ -17,7 +17,12 @@ const rolesEnum_1 = require("../../Enum/rolesEnum");
 const { db1, db2 } = require("../../db");
 const EC = new index_1.ErrorController();
 class PackageController {
-    /************* Add and Update Package's Details *************/
+    /**
+     * @method Post
+     * @req  -Object
+     * @res  -json-Object
+     * @desc - Create and Update new package or existing packages
+     */
     save_package(req, res) {
         var _a, _b, _c;
         return __awaiter(this, void 0, void 0, function* () {
@@ -61,7 +66,12 @@ class PackageController {
             }
         });
     }
-    /************** List of All Available Packages ************/
+    /**
+     *
+     * @method Get
+     * @res Array Of Object
+     * @desc Get The Data Rows
+     */
     list_packages(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
@@ -91,7 +101,11 @@ class PackageController {
             }
         });
     }
-    /********** List of Single Package By Id ******************/
+    /**
+     * @method Get
+     * @param req int ID
+     * @param res Json-Object
+     */
     list_package_by_id(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             try {

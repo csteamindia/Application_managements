@@ -3,6 +3,7 @@ const { dbReader, dbWriter } = require('../db');
 import crypto, { generateKeyPairSync } from 'crypto';
 import moment from 'moment';
 
+<<<<<<< Updated upstream
 /**
  * Get Current Date in Timestamp Format
  *  @days - default value `0` or grater value to Add days to current date
@@ -240,6 +241,27 @@ export function keyGeneration() {
         privateKey: privateKey,
         publicKey: publicKey
     };
+=======
+export const db2 = async (id: any) => {
+  let data = await db1.apps.findOne({
+    attributes: ["database", "database_host", "database_username", "database_password"],
+    where: {
+      id: id,
+    }
+  });
+  data = JSON.parse(JSON.stringify(data));
+
+  console.log("data ==>", data);
+  return new Sequelize(
+    data.database,
+    data.database_username,
+    data.database_password,
+    {
+      host: data.database_host,
+      dialect: 'mysql',
+    }
+  );
+>>>>>>> Stashed changes
 }
 
 export function decodeData(key: string, token: string) {

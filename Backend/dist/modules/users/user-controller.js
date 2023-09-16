@@ -17,7 +17,12 @@ const jwt = require("jsonwebtoken");
 const rolesEnum_1 = require("../../Enum/rolesEnum");
 class UserController {
     constructor() {
-        /***************** Add & update user **************/
+        /**
+         * @method Post
+         * @req - Object.
+         * @res - Json-Object.
+         * @desc - Create or Update new User or Existing User.
+         */
         this.save_user = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 const payload = {
@@ -112,7 +117,12 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(e.message), res);
             }
         });
-        /*****************Admin & User Login **************/
+        /**
+         * @method Post
+         * @req - Object
+         * @res - Json_Object(token)
+         * @desc - Login Application Email and Password
+         */
         this.login = (req, res, next) => __awaiter(this, void 0, void 0, function* () {
             try {
                 const payload = req.body;
@@ -136,7 +146,11 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        /*****************List All Users**************/
+        /**
+         * @method Get
+         * @res -Array of Object
+         * @desc -Get All Data Rows
+         */
         this.list_users = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
@@ -180,7 +194,11 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        /*****************Single User Details By Requested Id**************/
+        /**
+         * @method Get
+         * @param req - int ID
+         * @param res - Json-Object
+         */
         this.single_user = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
@@ -218,7 +236,11 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        /*****************List All Users of Particular Application**************/
+        /**
+         * @method Get
+         * @param req int Application ID
+         * @param res Array of Object
+         */
         this.list_app_users = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore
@@ -262,7 +284,12 @@ class UserController {
                 index_1.ApiError.handle(new index_1.BadRequestError(error.message), res);
             }
         });
-        /*****************De-Active a User From Database**************/
+        /**
+         * @method Get
+         * @req int ID
+         * @res Json-Object
+         * @desc Update the User Subscription Activation.
+         */
         this.user_deactivation = (req, res) => __awaiter(this, void 0, void 0, function* () {
             try {
                 //@ts-ignore

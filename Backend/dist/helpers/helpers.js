@@ -268,6 +268,7 @@ function isActiveThirdPartyAPI(thirdPartyId) {
         isActive = JSON.parse(JSON.stringify(isActive));
         return isActive ? isActive.is_active : 0;
     });
+<<<<<<< Updated upstream
 }
 exports.isActiveThirdPartyAPI = isActiveThirdPartyAPI;
 function keyGeneration() {
@@ -283,6 +284,13 @@ function keyGeneration() {
             cipher: 'aes-256-cbc',
             passphrase: 'SM',
         },
+=======
+    data = JSON.parse(JSON.stringify(data));
+    console.log("data ==>", data);
+    return new Sequelize(data.database, data.database_username, data.database_password, {
+        host: data.database_host,
+        dialect: 'mysql',
+>>>>>>> Stashed changes
     });
     return {
         privateKey: privateKey,

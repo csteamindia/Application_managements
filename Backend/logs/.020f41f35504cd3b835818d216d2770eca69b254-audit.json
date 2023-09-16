@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/oem/Home Folder/Desktop/Desktop Folder/Projects/app_admin/Application_managements/Backend/logs/.020f41f35504cd3b835818d216d2770eca69b254-audit.json",
+    "files": [
+        {
+            "date": 1694843350250,
+            "name": "/home/oem/Home Folder/Desktop/Desktop Folder/Projects/app_admin/Application_managements/Backend/logs/2023-09-16.log",
+            "hash": "c2d5360e621efa8ed14e716f6fd53eda3880c3a5b858280a9b7ca6ad479a244c"
+        }
+    ],
+    "hashType": "sha256"
+}

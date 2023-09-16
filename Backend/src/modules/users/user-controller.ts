@@ -13,7 +13,13 @@ const EC = new ErrorController();
 const jwt = require("jsonwebtoken");
 import { roles } from '../../Enum/rolesEnum'
 export class UserController {
-  /***************** Add & update user **************/
+  
+  /**
+   * @method Post
+   * @req - Object.
+   * @res - Json-Object.
+   * @desc - Create or Update new User or Existing User.
+   */
   public save_user = async (req: Request, res: Response) => {
     try {
       const payload = {
@@ -107,7 +113,13 @@ export class UserController {
     }
   };
 
-  /*****************Admin & User Login **************/
+
+  /**
+   * @method Post
+   * @req - Object
+   * @res - Json_Object(token)
+   * @desc - Login Application Email and Password
+   */
   public login = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const payload = req.body;
@@ -133,7 +145,11 @@ export class UserController {
     }
   };
 
-  /*****************List All Users**************/
+/**
+ * @method Get
+ * @res -Array of Object
+ * @desc -Get All Data Rows
+ */
   public list_users = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
@@ -175,7 +191,12 @@ export class UserController {
     }
   };
 
-  /*****************Single User Details By Requested Id**************/
+
+  /**
+   * @method Get
+   * @param req - int ID
+   * @param res - Json-Object
+   */
   public single_user = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
@@ -211,7 +232,11 @@ export class UserController {
     }
   };
 
-  /*****************List All Users of Particular Application**************/
+/**
+ * @method Get
+ * @param req int Application ID 
+ * @param res Array of Object
+ */
   public list_app_users = async (req: Request, res: Response) => {
     try {
       //@ts-ignore
@@ -253,7 +278,12 @@ export class UserController {
     }
   };
 
-  /*****************De-Active a User From Database**************/
+  /**
+   * @method Get
+   * @req int ID 
+   * @res Json-Object
+   * @desc Update the User Subscription Activation. 
+   */
   public user_deactivation = async (req: Request, res: Response) => {
     try {
       //@ts-ignore

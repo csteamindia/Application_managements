@@ -50,6 +50,7 @@ const package_route_1 = require("./modules/packages/package-route");
 const report_route_1 = require("./modules/reports/report-route");
 const demo_cred_route_1 = require("./modules/demoCreds/demo-cred-route");
 var IS_API_LOG = false;
+var cors = require('cors');
 /**
  * The server.
  *
@@ -77,6 +78,7 @@ class Server {
         this.router = express_1.default.Router();
         //create express js application
         this.app = (0, express_1.default)();
+        this.app.use(cors());
         // console.log(`Worker ${process.pid} started`);
         this.log_variable();
         //configure application

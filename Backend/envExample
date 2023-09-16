@@ -1,29 +1,53 @@
 NODE_ENV =production
 # Server listen to this port
-PORT=3000
+PORT=8800
 
 #Cors
 CORS_URL=*
  
-JWT_SECRET_KEY = ticket-system  
-TOKEN_HEADER_KEY = ticket-system  
+JWT_SECRET_KEY = app-management
+TOKEN_HEADER_KEY = app-management
 
-DB_HOST_READER=catchysystem.com
-DB_HOST_WRITER=catchysystem.com
+# DB_HOST_READER=localhost
+# DB_HOST_WRITER=localhost
+
+DB_HOST_1=localhost
+DB_HOST_2=localhost
+
+EMAIL="admin@gmail.com"
+PASSWORD="admin"
+ROLE="SUPER_ADMIN"
 
 # Databse
-# DB_NAME=csteam_rahul
-DB_NAME = csteam_ticket
+# DB_NAME = csteam_apps_managements
+DB1=csteam_apps_managements
+
 
 # DB_PORT
 DB_PORT=3306
 
 
-DB_USER = csteam_db
+# DB_USER = csteam_db
 # DB_USER=root
+USER1=root
 
-DB_USER_PWD="csteam@123#123"
+# DB_USER_PWD="csteam@123#123"
 # DB_USER_PWD=""
+PSWD1=""
+DB2=2ndDb
+
+
+# DB_PORT
+DB_PORT=3306
+
+
+# DB_USER = csteam_db
+# DB_USER=root
+USER2=root
+
+# DB_USER_PWD="csteam@123#123"
+# DB_USER_PWD=""
+PSWD2=""
 
 #Error controller place holder
 ecPlaceHolder="{place-holder}"

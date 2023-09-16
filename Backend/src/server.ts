@@ -17,6 +17,7 @@ import { PackageRoute } from "./modules/packages/package-route";
 import { ReportRoute } from './modules/reports/report-route'
 import { DemoCredsRoute } from "./modules/demoCreds/demo-cred-route";
 var IS_API_LOG = false;
+var cors = require('cors')
 /**
  * The server.
  *
@@ -44,11 +45,14 @@ export class Server {
    * @class Server
    * @constructor
    */
+
+
   constructor() {
     this.router = express.Router();
 
     //create express js application
     this.app = express();
+    this.app.use(cors())
     // console.log(`Worker ${process.pid} started`);
 
     this.log_variable();

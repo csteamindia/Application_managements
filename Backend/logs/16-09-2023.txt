@@ -1,0 +1,512 @@
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:11:40
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"d31b909d-99d4-4964-b218-b91a860c0afb","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:13:46
+End Point : /api/v1/app/list
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"3cdb53d2-5f08-4379-acca-eaea5a2f441f","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:13:55
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"88e8033d-29e2-4f76-8dfa-7d10dfc589be","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:14:04
+End Point : /api/v1/app/a
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"3b19e264-b046-4537-bef0-b44ccb162bf7","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:14:06
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"518db6de-d1fb-44e8-aedd-4113aff3be44","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:17:40
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"8873971d-b2bb-42c6-80f4-8b6d06b16fcf","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:18:53
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"e32e4386-47ed-4850-8ce2-d60b95ebcade","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:18:55
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"eeaa0731-0d55-48bc-a7d8-f1adb748bf2d","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:14
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"71175705-daa2-4a5d-b473-4747bb6c3d8c","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:16
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"b6434167-7cfb-4ff7-8d20-cdaec00af5a3","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:20
+End Point : /api/v1/app/2
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"6292aa61-7b8c-492e-a193-0ae6f31e56bf","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:47
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"cdf1da82-6121-40d3-8203-daedc9846c7b","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:52
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"259750e4-2b07-41fd-aa60-3e0c2c67fc29","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:53
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"b87aa886-77cd-4fac-b600-5d7e9518a3c8","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:19:57
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"34046038-b193-4bae-a0a2-82bae7bcd1db","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:25
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"2d207465-d9c0-4be6-9b7f-3ed8bd445e44","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:26
+End Point : /api/v1/app
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"82321747-f304-4fc7-894a-8d03ac2e829e","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:28
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"d03a0e73-7d5c-44df-bf4c-981a822cce70","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:29
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"80acf2c5-6509-4634-b9e7-ff8df19ce5e8","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:40
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"8825d530-1755-4ed9-b8d0-0203b606891f","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:47
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"373c69ab-4398-44f0-9d09-a15ff26aab6b","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:48
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"67c3d439-6b28-40c1-89ee-bd0ead04f306","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:49
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"fb0bd153-c3fe-4dce-9cbe-412e5d037e6a","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:53
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"46211ece-396d-42b0-b77e-b4c4a336a051","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:20:58
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"50feb909-f132-4d58-88c4-fdb53fd99d78","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:21:05
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"f0fdc102-79ea-4101-821d-008ca0a8cc33","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:21:23
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"45d434d6-54dd-4369-944a-144331a350e4","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:21:24
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"0a4d0451-9505-4e9e-b67f-e1c0e250cabb","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:21:25
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"a932ba27-26f2-4b73-a660-ea0a573e1c7e","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:21:31
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"ec975305-d629-4b50-80fe-296e582839e1","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:22:18
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"a321292d-9949-4bd0-be85-2a5e6c8bcb14","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:22:19
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"5d778b0c-4289-4af7-96ff-7b7f7021f22c","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:23:40
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"a584905b-ccfd-49ee-a41a-ecfee2e7ff7c","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:23:41
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"ea0f07bd-9684-49de-992a-62e5f364cae1","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:23:42
+End Point : /api/v1/apps
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"8b3b3ef2-8eb5-4346-a915-3de6b4081317","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:39:56
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"f39ea2b0-4b57-4a65-b1ff-1e02455f9e6e","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {"id":"1"}
+Error : Converting circular structure to JSON
+    --> starting at object with constructor 'Sequelize'
+    |     property 'dialect' -> object with constructor 'MysqlDialect'
+    --- property 'sequelize' closes the circle
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:41:35
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"2c4cfb75-0745-4cc6-8fca-266ee5993004","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {"id":"1"}
+Error : Converting circular structure to JSON
+    --> starting at object with constructor 'Sequelize'
+    |     property 'dialect' -> object with constructor 'MysqlDialect'
+    --- property 'sequelize' closes the circle
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:41:37
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"b0041b17-0274-4041-aa1d-85bc1d90d06b","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {"id":"1"}
+Error : Converting circular structure to JSON
+    --> starting at object with constructor 'Sequelize'
+    |     property 'dialect' -> object with constructor 'MysqlDialect'
+    --- property 'sequelize' closes the circle
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 00:41:38
+End Point : /api/v1/app/1
+Method : GET
+Headers : {"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ4MDE1NjJ9.qsyZMmhRexc_uWjbCpGdhrgBv0LnVgLaLm25NrBG7bE","user-agent":"PostmanRuntime/7.32.3","accept":"*/*","postman-token":"8dd1abc0-583d-4186-a895-99acb7878bff","host":"localhost:8800","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}
+Body : {}
+Params : {"id":"1"}
+Error : Converting circular structure to JSON
+    --> starting at object with constructor 'Sequelize'
+    |     property 'dialect' -> object with constructor 'MysqlDialect'
+    --- property 'sequelize' closes the circle
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 11:21:02
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 11:21:02
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:10:47
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:10:47
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:14:13
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:14:13
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:21:54
+End Point : /api/v1/apps/list
+Method : GET
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"application/json, text/plain, */*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ3OTMyMzB9.l0sxdtHJNf8tUeKlNpCWCiy-YzEtKlmB821BMoSSqdM","origin":"http://localhost:3000","connection":"keep-alive","referer":"http://localhost:3000/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","if-none-match":"W/\"1872-8oHyyKINSCqZLbPl/Yhhg+Yz3es\""}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:21:54
+End Point : /api/v1/apps/list
+Method : GET
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"application/json, text/plain, */*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiYWRtaW4iLCJyb2xlIjoiU1VQRVJfQURNSU4iLCJpYXQiOjE2OTQ3OTMyMzB9.l0sxdtHJNf8tUeKlNpCWCiy-YzEtKlmB821BMoSSqdM","origin":"http://localhost:3000","connection":"keep-alive","referer":"http://localhost:3000/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:23:18
+End Point : /api/v1/apps/list
+Method : GET
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:31:05
+End Point : /api/v1/apps/list
+Method : GET
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"cross-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 12:31:47
+End Point : /api/v1/apps
+Method : GET
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","connection":"keep-alive","upgrade-insecure-requests":"1","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1"}
+Body : {}
+Params : {}
+Error : Token is required
+---------------------------------------------------------------------------------------------
