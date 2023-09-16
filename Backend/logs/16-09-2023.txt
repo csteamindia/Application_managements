@@ -400,3 +400,1043 @@ Error : Converting circular structure to JSON
     |     property 'dialect' -> object with constructor 'MysqlDialect'
     --- property 'sequelize' closes the circle
 ---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:16:09
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:16:09
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:18:11
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:34:48
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:34:48
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:35:21
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:35:25
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:35:25
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:17
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:17
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:33
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:52
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:36:58
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:37:13
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:37:22
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:37:25
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:37:25
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:38:03
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:38:09
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:38:11
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:38:29
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:38:37
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:39:27
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:42:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:42:40
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 14:42:55
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:05:53
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:06:03
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:06:46
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:07:17
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:07:23
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:09:21
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:09:28
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:09:55
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:09:56
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:10:57
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:10:58
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:11:36
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:11:50
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:12:24
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:12:30
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:12:41
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:12:53
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:12:59
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:01
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:08
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:10
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:15
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:18
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:13:22
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:14:42
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:14:43
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:14:48
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:14:59
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:15:01
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:15:15
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:15:15
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:16:14
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:16:43
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:17:26
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:17:32
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:17:39
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:15
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:23
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:29
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:41
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:51
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:56
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:20:57
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:21:06
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:21:50
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:21:52
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:22:05
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:22:16
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:25:44
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:25:59
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:26:12
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:26:52
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:27:14
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:27:17
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:27:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:30:35
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:30:38
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:31:54
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:34:23
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:34:30
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:35:20
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:35:22
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:35:50
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:35:52
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:36:57
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:37:18
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:37:31
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:38:16
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:38:36
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:38:47
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:38:49
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:40:41
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:41:19
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:42:10
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:42:13
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
