@@ -15,7 +15,12 @@ const { db1, db2 } = require("../../db");
 const EC = new ErrorController();
 
 export class PackageController {
-  /************* Add and Update Package's Details *************/
+  /**
+   * @method Post
+   * @req  -Object 
+   * @res  -json-Object
+   * @desc - Create and Update new package or existing packages  
+   */
   public async save_package(req: Request, res: Response) {
     try {
       const createBody = {
@@ -55,7 +60,12 @@ export class PackageController {
     }
   }
 
-  /************** List of All Available Packages ************/
+  /**
+   * 
+   * @method Get
+   * @res Array Of Object
+   * @desc Get The Data Rows
+   */
   public async list_packages(req: Request, res: Response) {
     try {
       //@ts-ignore
@@ -83,7 +93,11 @@ export class PackageController {
     }
   }
 
-  /********** List of Single Package By Id ******************/
+  /**
+   * @method Get
+   * @param req int ID
+   * @param res Json-Object  
+   */
   public async list_package_by_id(req: Request, res: Response) {
     try {
       //@ts-ignore 
