@@ -8,7 +8,7 @@ import {
   ApiError,
   AuthFailureError,
 } from "../../core/index";
-const { db2, dbConfig } = require('../../helpers/helpers')
+const { db2, dbConfig, queryData, queriObject } = require('../../helpers/helpers')
 const { db1 } = require('../../db')
 import {roles} from '../../Enum/rolesEnum';
 const EC = new ErrorController();
@@ -55,6 +55,7 @@ export class AppController {
           save = await db1.apps.create(reqBody);
           save = JSON.parse(JSON.stringify(save));
           if (save) {
+            queryData(reqBody.app_title)
             delete save.database_password;
             new CreatedResponse(EC.created, save).send(res);
           } else {
@@ -117,8 +118,10 @@ export class AppController {
    *  - Object 
    */
   public list_app = async (req: Request, res: Response) => {
+    
+    const data = await queriObject()
     await db2(req.params.id).then((conn: any) => {
-      conn.query('SELECT * FROM user', dbConfig)
+      conn.query(data.tracking?.login, dbConfig)
       .then((data: any) => {
         new SuccessResponse(EC.fetched, data).send(res);
       })

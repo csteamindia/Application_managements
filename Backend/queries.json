@@ -1,0 +1,7 @@
+{
+  "tracking": {
+    "login": "SELECT * FROM user",
+    "analytics": "",
+    "users": ""
+  }
+}

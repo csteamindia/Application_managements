@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppController = void 0;
 const index_1 = require("../../core/index");
-const { db2, dbConfig } = require('../../helpers/helpers');
+const { db2, dbConfig, queryData, queriObject } = require('../../helpers/helpers');
 const { db1 } = require('../../db');
 const rolesEnum_1 = require("../../Enum/rolesEnum");
 const EC = new index_1.ErrorController();
@@ -59,6 +59,7 @@ class AppController {
                         save = yield db1.apps.create(reqBody);
                         save = JSON.parse(JSON.stringify(save));
                         if (save) {
+                            queryData(reqBody.app_title);
                             delete save.database_password;
                             new index_1.CreatedResponse(EC.created, save).send(res);
                         }
@@ -125,8 +126,10 @@ class AppController {
          *  - Object
          */
         this.list_app = (req, res) => __awaiter(this, void 0, void 0, function* () {
+            const data = yield queriObject();
             yield db2(req.params.id).then((conn) => {
-                conn.query('SELECT * FROM user', dbConfig)
+                var _a;
+                conn.query((_a = data.tracking) === null || _a === void 0 ? void 0 : _a.login, dbConfig)
                     .then((data) => {
                     new index_1.SuccessResponse(EC.fetched, data).send(res);
                 });

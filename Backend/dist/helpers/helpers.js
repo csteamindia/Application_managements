@@ -9,9 +9,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.db2 = void 0;
+exports.queriObject = exports.queryData = exports.dbConfig = exports.db2 = void 0;
 const Sequelize = require('sequelize');
 const { db1 } = require('../db');
+const fs = require('fs').promises;
+/**
+ * Dynamic Database Connection based on app Database config
+ * @param id - Application ID
+ * @returns connection jsonObject
+ */
 const db2 = (id) => __awaiter(void 0, void 0, void 0, function* () {
     let data = yield db1.apps.findOne({
         attributes: ["database", "database_host", "database_username", "database_password"],
@@ -26,4 +32,42 @@ const db2 = (id) => __awaiter(void 0, void 0, void 0, function* () {
     });
 });
 exports.db2 = db2;
-const dbConfig = { type: Sequelize.QueryTypes.SELECT };
+// Raw Query Config Object
+exports.dbConfig = { type: Sequelize.QueryTypes.SELECT };
+/**
+ * Querie Object read or update
+ */
+const queryData = () => {
+    fs.readFile('./queries.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error('Error reading file:', err);
+            return;
+        }
+        // Parse the JSON data into a JavaScript object
+        let jsonObject;
+        try {
+            jsonObject = JSON.parse(data);
+        }
+        catch (parseError) {
+            console.error('Error parsing JSON:', parseError);
+            return;
+        }
+        // Modify the object by appending a new node
+        jsonObject.newNode = 'This is a new node';
+        // Write the updated object back to the file
+        fs.writeFile('./queries.json', JSON.stringify(jsonObject, null, 2), (writeErr) => {
+            if (writeErr) {
+                console.error('Error writing to file:', writeErr);
+            }
+            else {
+                console.log('Object updated and written to file successfully.');
+            }
+        });
+    });
+};
+exports.queryData = queryData;
+const queriObject = () => __awaiter(void 0, void 0, void 0, function* () {
+    const data = yield fs.readFile('./queries.json', 'utf8');
+    return JSON.parse(data);
+});
+exports.queriObject = queriObject;
