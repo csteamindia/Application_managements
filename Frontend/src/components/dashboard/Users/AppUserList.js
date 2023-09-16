@@ -17,11 +17,20 @@ const AppUserList = () => {
   const token = localStorage.getItem('access-token')
 
   const fetchUser = async () => {
-    await axios.get(`${url.APP_USER}/${params?.id}`, { headers: { Authorization: `Bearer ${token}` } })
-      .then((response) => { setUsers(response.data.data.rows) })
+    await axios.get(`${url.SINGLE_APP}/${params?.id}`, { headers: { Authorization: `Bearer ${token}` } })
+      .then((response) => {
+        console.log("kkk -->", response.data)
+        setUsers(response.data.data)
+      })
       .catch((error) => {
         console.log('Error', error)
       })
+
+    // await axios.get(`${url.APP_USER}/${params?.id}`, { headers: { Authorization: `Bearer ${token}` } })
+    //   .then((response) => { setUsers(response.data.data.rows) })
+    //   .catch((error) => {
+    //     console.log('Error', error)
+    //   })
   }
 
   const removeUser = async (id) => {
@@ -44,6 +53,7 @@ const AppUserList = () => {
 
           <Table className="no-wrap mt-3 align-middle" responsive borderless>
             <thead>
+
               <tr>
                 <th>Sr. No</th>
                 <th>Full Name</th>

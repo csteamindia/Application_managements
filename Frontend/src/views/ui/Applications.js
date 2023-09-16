@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import {
   Card,
-  CardBody,
-  CardTitle,
-  Button
+  CardBody
 } from "reactstrap";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -30,7 +28,6 @@ const Applications = () => {
     <div>
       {
         apps && apps.map((data, index) => {
-          console.log(data.logo);
           // const logo = !data.logo ? "https://picsum.photos/300/200" : data.logo;
           return (
             <Link to={`/dashboard/${data.id}`} key={data.id}>

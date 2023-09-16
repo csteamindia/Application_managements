@@ -131,7 +131,10 @@ class AppController {
                 var _a;
                 conn.query((_a = data.tracking) === null || _a === void 0 ? void 0 : _a.login, dbConfig)
                     .then((data) => {
+                    console.log("-->", data);
                     new index_1.SuccessResponse(EC.fetched, data).send(res);
+                }).catch((error) => {
+                    console.log("error -->", error);
                 });
             })
                 .catch((error) => {

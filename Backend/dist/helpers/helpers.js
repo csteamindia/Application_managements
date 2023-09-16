@@ -19,6 +19,7 @@ const fs = require('fs').promises;
  * @returns connection jsonObject
  */
 const db2 = (id) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log("step 1");
     let data = yield db1.apps.findOne({
         attributes: ["database", "database_host", "database_username", "database_password"],
         where: {
@@ -26,6 +27,7 @@ const db2 = (id) => __awaiter(void 0, void 0, void 0, function* () {
         }
     });
     data = JSON.parse(JSON.stringify(data));
+    console.log("step 2", data);
     return new Sequelize(data.database, data.database_username, data.database_password, {
         host: data.database_host,
         dialect: 'mysql',
@@ -47,6 +49,7 @@ const queryData = () => {
         let jsonObject;
         try {
             jsonObject = JSON.parse(data);
+            console.log('data -->', jsonObject);
         }
         catch (parseError) {
             console.error('Error parsing JSON:', parseError);

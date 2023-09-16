@@ -41,6 +41,7 @@ const path = __importStar(require("path"));
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const express_1 = __importDefault(require("express"));
 const fs_1 = __importDefault(require("fs"));
+const cors = require('cors');
 const Logger_1 = __importDefault(require("./core/Logger"));
 const ApiError_1 = require("./core/ApiError");
 const webRoute_1 = require("./webRoute");
@@ -77,6 +78,7 @@ class Server {
         this.router = express_1.default.Router();
         //create express js application
         this.app = (0, express_1.default)();
+        this.app.use(cors());
         // console.log(`Worker ${process.pid} started`);
         this.log_variable();
         //configure application

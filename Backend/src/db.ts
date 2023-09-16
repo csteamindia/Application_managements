@@ -5,7 +5,7 @@ const db1 = new Sequelize(process.env.DB1, process.env.USER1, process.env.PSWD1,
   host: 'localhost',
   dialect: 'mysql', // Use the appropriate dialect
   loging: false
-});
+})
 
 db1["apps"] = require(path.join(__dirname, "/modules/apps/app_model"))(db1, Sequelize);
 db1["users"] = require(path.join(__dirname, "/modules/users/users-model"))(db1, Sequelize);

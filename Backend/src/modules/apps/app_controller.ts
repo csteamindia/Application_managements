@@ -10,9 +10,9 @@ import {
 } from "../../core/index";
 const { db2, dbConfig, queryData, queriObject } = require('../../helpers/helpers')
 const { db1 } = require('../../db')
-import {roles} from '../../Enum/rolesEnum';
+import { roles } from '../../Enum/rolesEnum';
 const EC = new ErrorController();
-import { hash  } from "bcrypt";
+import { hash } from "bcrypt";
 
 export class AppController {
 
@@ -118,16 +118,19 @@ export class AppController {
    *  - Object 
    */
   public list_app = async (req: Request, res: Response) => {
-    
+
     const data = await queriObject()
     await db2(req.params.id).then((conn: any) => {
       conn.query(data.tracking?.login, dbConfig)
-      .then((data: any) => {
-        new SuccessResponse(EC.fetched, data).send(res);
-      })
+        .then((data: any) => {
+          console.log("-->", data)
+          new SuccessResponse(EC.fetched, data).send(res);
+        }).catch((error: any) => {
+          console.log("error -->", error)
+        })
     })
-    .catch((error: { message: string | undefined; }) => {
-      ApiError.handle(new BadRequestError(error.message), res);
-    });
+      .catch((error: { message: string | undefined; }) => {
+        ApiError.handle(new BadRequestError(error.message), res);
+      });
   };
 }

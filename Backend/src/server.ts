@@ -3,6 +3,7 @@ import * as path from "path";
 import cookieParser from "cookie-parser";
 import express from "express";
 import fs from "fs";
+const cors = require('cors');
 
 import Logger from "./core/Logger";
 import {
@@ -46,9 +47,9 @@ export class Server {
    */
   constructor() {
     this.router = express.Router();
-
     //create express js application
     this.app = express();
+    this.app.use(cors());
     // console.log(`Worker ${process.pid} started`);
 
     this.log_variable();

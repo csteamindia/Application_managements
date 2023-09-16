@@ -8,3 +8,23 @@ Body : {}
 Params : {}
 Error : Not Found
 ---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:04:42
+End Point : /api/v1/app//1
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 15:07:40
+End Point : /api/v1/app//1
+Method : OPTIONS
+Headers : {"host":"localhost:8800","user-agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0","accept":"*/*","accept-language":"en-US,en;q=0.5","accept-encoding":"gzip, deflate, br","access-control-request-method":"GET","access-control-request-headers":"authorization","referer":"http://localhost:3000/","origin":"http://localhost:3000","connection":"keep-alive","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
