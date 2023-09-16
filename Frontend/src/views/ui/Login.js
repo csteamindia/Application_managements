@@ -12,9 +12,9 @@ import {
     Label,
     Input,
 } from "reactstrap";
-import axios from 'axios';
 import './login.css'
-import url from '../../backendURL/backend_urls'
+import { LOGIN_URL } from '../../services/api_endpoints'
+import { postCall } from '../../services/api_calls' 
 
 const Login = () => {
     const [loginCred, setLoginCred] = React.useState({
@@ -41,17 +41,20 @@ const Login = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        await axios.post(`${url.LOGIN}`, loginCred)
-            .then((res) => {
-                localStorage.setItem('access-token', res.data.data.token)
-                clearState();
-                window.location.href = '/home'
-                // navigate('/home');
-            })
-            .catch((error) => {
-                console.log(error)
-                setErrorMessage("Invalid username or password");
-            });
+        const res = await postCall(`${LOGIN_URL}`, loginCred)
+        
+        console.log({res})
+
+            // .then((res) => {
+            //     localStorage.setItem('accessToken', res.data.data.token)
+            //     clearState();
+            //     window.location.href = '/home'
+            //     // navigate('/home');
+            // })
+            // .catch((error) => {
+            //     console.log(error)
+            //     setErrorMessage("Invalid username or password");
+            // });
     };
     return (
         <div>

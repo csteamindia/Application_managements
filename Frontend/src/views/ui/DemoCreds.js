@@ -1,33 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Card,
   CardBody,
-  CardTitle,
-  Button,
   Form,
   Row,
-  Col,
-  FormGroup
+  Col
 } from "reactstrap";
-import axios from "axios";
-import url from '../../backendURL/backend_urls'
 import { toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
+import { CREDS_URL } from '../../services/api_endpoints'
+import { getCall, deleteCall } from '../../services/api_calls'
 
 
 const DemoCreds = () => {
-  const [users, setUsers] = useState([])
-  const token = localStorage.getItem('access-token');
   const navigat = useNavigate();
-  React.useEffect(() => {
+  const [users, setUsers] = useState([])
+  
+  useEffect(() => {
     fetchApps()
   }, [])
 
   const fetchApps = async () => {
     try {
-      await axios.get(url.CREDS, { headers: { Authorization: `Bearer ${token}` } })
-        .then((response) => setUsers(response.data.data.rows))
-        .catch((error) => toast.error(error.response.data.message));
+      const res = await getCall(CREDS_URL)
+      console.log(res)
+    //     .then((response) => setUsers(response.data.data.rows))
+    //     .catch((error) => toast.error(error.response.data.message));
     } catch (error) {
       console.log('Error fetching products:', error);
     }
@@ -47,11 +45,13 @@ const DemoCreds = () => {
     const confirm = window.confirm("Are you sure want to Delete this item ?");
 
     if (confirm) {
-      await axios.delete(`${url.REMOVE_CRED}${id}`, { headers: { Authorization: `Bearer ${token}` } }).then((response) => {
-        window.location.href = window.location.href //refresh page
-      }).catch((error) => {
-        toast.error(error.response.data.message)
-      })
+      const res = await deleteCall(`${CREDS_URL}/${id}`)
+      console.log(res)
+      // .then((response) => {
+      //   window.location.href = window.location.href //refresh page
+      // }).catch((error) => {
+      //   toast.error(error.response.data.message)
+      // })
     }
   }
   return (

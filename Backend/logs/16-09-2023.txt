@@ -1440,3 +1440,83 @@ Body : {}
 Params : {}
 Error : Not Found
 ---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:26:45
+End Point : /api/v1/users/login
+Method : POST
+Headers : {"host":"localhost:8800","connection":"keep-alive","content-length":"46","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","accept":"application/json, text/plain, */*","content-type":"application/json","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {"email":"admin@admin.com","password":"admin"}
+Params : {}
+Error : Invalid username and password.
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:26:50
+End Point : /api/v1/users/login
+Method : POST
+Headers : {"host":"localhost:8800","connection":"keep-alive","content-length":"46","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","accept":"application/json, text/plain, */*","content-type":"application/json","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {"email":"admin@admin.com","password":"admin"}
+Params : {}
+Error : Invalid username and password.
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:26:56
+End Point : /api/v1/users/login
+Method : POST
+Headers : {"host":"localhost:8800","connection":"keep-alive","content-length":"46","pragma":"no-cache","cache-control":"no-cache","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","accept":"application/json, text/plain, */*","content-type":"application/json","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {"email":"admin@admin.com","password":"admin"}
+Params : {}
+Error : Invalid username and password.
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:27:17
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:27:56
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 16:28:24
+End Point : /api/v1/apps/list
+Method : OPTIONS
+Headers : {"host":"localhost:8800","connection":"keep-alive","pragma":"no-cache","cache-control":"no-cache","accept":"*/*","access-control-request-method":"GET","access-control-request-headers":"authorization","origin":"http://localhost:3000","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-fetch-mode":"cors","sec-fetch-site":"same-site","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"}
+Body : {}
+Params : {}
+Error : Not Found
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 17:35:26
+End Point : /api/v1
+Method : GET
+Headers : {"host":"localhost:8800","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","accept":"application/json, text/plain, */*","dnt":"1","sec-ch-ua-mobile":"?0","authorization":"Bearer null","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Internal error
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Time : 2023-09-16 17:35:28
+End Point : /api/v1
+Method : GET
+Headers : {"host":"localhost:8800","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","accept":"application/json, text/plain, */*","dnt":"1","sec-ch-ua-mobile":"?0","authorization":"Bearer null","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"}
+Body : {}
+Params : {}
+Error : Internal error
+---------------------------------------------------------------------------------------------

@@ -15,8 +15,9 @@ import {
 } from "reactstrap";
 import { useNavigate, Link } from "react-router-dom"
 import { toast } from 'react-toastify'
-import axios from "axios";
-import url from '../../backendURL/backend_urls'
+import { APP_URL } from '../../services/api_endpoints'
+import { getCall, postCall } from '../../services/api_calls'
+
 import addImgae from '../../assets/images/add-icon.png'
 
 const Applications = () => {
@@ -50,9 +51,8 @@ const Applications = () => {
 
   const handleSubmit = async (e) => {
       e.preventDefault();
-      const token = localStorage.getItem('access-token')
       // Make API request
-      await axios.post(url.APP_SAVE, formData, { headers: { Authorization: `Bearer ${token}` } })
+      await postCall(APP_URL, formData)
       .then(response => {
           toast.success("Success");
           navigate(-1)
@@ -68,8 +68,7 @@ const Applications = () => {
 
   const fetchApps = async () => {
     try {
-      const token = localStorage.getItem('access-token');
-      const response = await axios.get(url.APP_LIST, { headers: { Authorization: `Bearer ${token}` } });
+      const response = await getCall(APP_URL);
       setApps(response.data.data.rows);
     } catch (error) {
       console.log('Error fetching products:', error);

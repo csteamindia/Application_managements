@@ -1,8 +1,9 @@
 import { React, useState, useEffect } from 'react';
 import { Card, CardBody, CardTitle, Button, Table } from "reactstrap";
-import { useNavigate, useParams } from 'react-router-dom';
-import url from '../../backendURL/backend_urls';
-import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
+import { PACKAGES_URL } from '../../services/api_endpoints'
+import { getCall } from '../../services/api_calls'
+
 
 const Packages = () => {
     const [packages, setPackages] = useState([]);
@@ -10,16 +11,19 @@ const Packages = () => {
     useEffect(() => {
         fetchPackages();
     }, []);
-const token = localStorage.getItem('access-token')
+    
+    const token = localStorage.getItem('access-token')
+    
     const navigate = useNavigate();
     async function fetchPackages() {
-        await axios.get(`${url.PACKAGES}`, { headers: { Authorization: `Bearer ${token}` } })
-            .then((response) => {
-                console.log("-------", response.data.data.rows)
-                setPackages(response.data.data.rows);
-            }).catch((error) => {
-                console.log(error);
-            })
+        const res = await getCall(PACKAGES_URL)
+        console.log(res)
+            // .then((response) => {
+            //     console.log("-------", response.data.data.rows)
+            //     setPackages(response.data.data.rows);
+            // }).catch((error) => {
+            //     console.log(error);
+            // })
     }
 
     return (

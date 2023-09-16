@@ -1,6 +1,4 @@
 import { Col, Row } from "reactstrap";
-import SalesChart from "../components/dashboard/SalesChart";
-import AppUserList from "../components/dashboard/Users/AppUserList";
 
 
 const Starter = () => {
@@ -8,13 +6,13 @@ const Starter = () => {
     <div>
       <Row>
         <Col sm="9" lg="9" xl="9" xxl="12">
-          <SalesChart />
+          {/* <SalesChart /> */}
         </Col>
       </Row>
       {/***Table ***/}
       <Row>
         <Col lg="9">
-          <AppUserList />
+          {/* <AppUserList /> */}
         </Col>
       </Row>
     </div>

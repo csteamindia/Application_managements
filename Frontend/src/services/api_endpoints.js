@@ -1,0 +1,10 @@
+export const LOGIN_URL = '/login'
+export const APP_URL = '/apps'
+export const CREDS_URL = '/creds'
+export const PACKAGES_URL = '/packages'
+
+export const APP_USER_URL = '/users/app/list'
+export const USERS_URL = '/users/list/'
+export const SINGLE_USER_URL = '/users/list/'
+export const CREATE_USER_URL = '/users/save'
+export const DE_ACTIVE_USER_URL = '/users/delete/'
