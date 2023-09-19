@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/oem/Home Folder/Desktop/Desktop Folder/Projects/app_admin/Application_managements/Backend/logs/.020f41f35504cd3b835818d216d2770eca69b254-audit.json",
+    "files": [
+        {
+            "date": 1694866896488,
+            "name": "/home/oem/Home Folder/Desktop/Desktop Folder/Projects/app_admin/Application_managements/Backend/logs/2023-09-16.log",
+            "hash": "d8574617f0045c37ad66df9d0703e62ae9fe63982a3852d8ee42acead82ee0a3"
+        },
+        {
+            "date": 1695114828432,
+            "name": "/home/oem/Home Folder/Desktop/Desktop Folder/Projects/app_admin/Application_managements/Backend/logs/2023-09-19.log",
+            "hash": "88636d498203574252d67c49beb0c4a1937b8975a7b59829d78be844ea061bee"
+        }
+    ],
+    "hashType": "sha256"
+}
